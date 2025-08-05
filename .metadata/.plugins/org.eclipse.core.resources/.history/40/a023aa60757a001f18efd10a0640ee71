@@ -1,0 +1,40 @@
+package Dailypractice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ractice16082024 {
+
+	public static void main(String[] args) {
+		int a[] = {10,20,10,30,30,25,30,52};
+		//find even and odd
+		for(int i=0;i<a.length;i++) {
+			
+		
+		if(a[i]%10==0) {
+			System.out.println("even no."+ " "+ a[i]);
+			
+			
+		}else if(a[i]%10!=0) {
+		System.out.println("odd no"+""+a[i]);
+		}
+		
+		//find duplicate
+		
+		String u="Programming";
+		
+		char [] c=u.toCharArray();
+		Set<Character> f=new HashSet<Character>();
+		
+		for(int t=0;t<c.length;t++) {
+			for(int v=t+1;v<c.length;v++) {
+				if(c[t]==c[v]) {
+				f.add(c[t]);
+			}
+		}
+		
+		
+	}
+		System.out.println(f);
+	}
+}

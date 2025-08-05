@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+    <booleanAttribute key="M2_BATCH" value="false"/>
+    <stringAttribute key="M2_GOALS" value="-U archetype:generate"/>
+    <listAttribute key="M2_PROPERTIES">
+        <listEntry value="jtlVersion=1.9-RC4"/>
+        <listEntry value="awsdevicefarm=false"/>
+        <listEntry value="applitools=false"/>
+        <listEntry value="browserstack=false"/>
+        <listEntry value="galen=false"/>
+        <listEntry value="mobile=false"/>
+        <listEntry value="visual=false"/>
+        <listEntry value="archetypeGroupId=qa.justtestlah"/>
+        <listEntry value="archetypeArtifactId=justtestlah-quickstart"/>
+        <listEntry value="archetypeVersion=1.9-RC4"/>
+        <listEntry value="groupId=mavenclass"/>
+        <listEntry value="artifactId=practice1"/>
+        <listEntry value="version=0.0.1-SNAPSHOT"/>
+        <listEntry value="package=mavenclass.practice1"/>
+        <listEntry value="outputDirectory=C:\Users\Vikas\Desktop\datatesting"/>
+    </listAttribute>
+    <booleanAttribute key="M2_SAVE_BEFORE_LAUNCH" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\Vikas\AppData\Local\Temp\m2e-archetypeGenerator8936549835699106522"/>
+</launchConfiguration>

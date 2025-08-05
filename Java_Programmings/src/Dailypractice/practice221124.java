@@ -1,0 +1,40 @@
+package Dailypractice;
+
+import java.util.Arrays;
+
+public class practice221124 {
+
+	public static void main(String[] args) {
+		
+		
+		int [] digit=new int [6];
+		digit[0]=5;
+		 digit[1]=6;
+		 digit[2]=50;
+		 digit [3]=55;
+		 digit[4] =56;
+		 digit[5]=60;
+	
+		int max=0;
+		int second_max=0;
+		int third_max=0;
+		
+		//for(int i=0;i<digit.length-1;i++) {
+		for(int num:digit)
+			if(max<num) {
+				third_max=second_max;
+				second_max=max;
+				max=num;
+		}else if(second_max<num) {
+			third_max=second_max;
+			second_max=num;
+		}else if(third_max<num) {
+			third_max=num;
+		}
+		System.out.println(max);		
+			}
+		
+		
+	}
+	
+

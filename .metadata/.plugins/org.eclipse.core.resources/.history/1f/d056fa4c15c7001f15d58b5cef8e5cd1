@@ -1,0 +1,31 @@
+package Dailypractice;
+
+public class practice31122024 {
+
+	public static void main(String[] args) {
+		
+		String name="old monk in oldage home";
+		
+		String [] split=name.split(" ");
+		
+		char target='o';
+		
+		
+		
+		for(String p:split) {
+			int count=0;
+			if(p.equals(target)) {
+				
+				count++;
+				
+				System.out.println(count);
+			}
+			
+			System.out.println();
+		}
+		
+		
+
+	}
+
+}

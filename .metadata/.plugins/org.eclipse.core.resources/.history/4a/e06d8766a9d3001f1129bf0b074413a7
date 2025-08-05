@@ -1,0 +1,45 @@
+package String;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Frequency_Of_Each_character_AND_String {
+
+	public static void main(String[] args) {
+	
+		String value="programming";
+		
+		Map<Character , Integer> map=new HashMap<Character, Integer>();
+		
+		for(Character ch:value.toCharArray()) {
+			
+			if(map.containsKey(ch)) {
+				
+				map.put(ch, map.get(ch)+1);
+			}else {
+				
+				map.put(ch, 1);
+			}
+			
+		}
+		System.out.println(map);
+		
+		
+		//2nd question
+		
+		String name="Ram and shayam are brother and Ram and Sjyam are friend also";
+		
+		Map<String ,Integer> map1=new HashMap();
+		
+		for(String str:name.split(" ")) {
+		
+		if(map1.containsKey(str)) {
+			
+			map1.put(str, map1.get(str)+1);
+		}else {
+			map1.put(str, 1);
+		}
+	}
+		System.out.println(ma1);
+	}
+}

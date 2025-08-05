@@ -1,0 +1,9 @@
+package TestNGDemo;
+
+public class practice {
+
+	@Test
+	public void practice() {
+		System.out.println("bikas");
+	}
+}

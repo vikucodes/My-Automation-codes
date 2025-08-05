@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;String.find_lenth_of_longest_string&apos; to &apos;find_longest_string&apos;&#x0D;&#x0A;- Original project: &apos;Javainterview question answer&apos;&#x0D;&#x0A;- Original element: &apos;String.find_lenth_of_longest_string&apos;&#x0D;&#x0A;- Renamed element: &apos;String.find_longest_string&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;find_lenth_of_longest_string&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;String{find_lenth_of_longest_string.java[find_lenth_of_longest_string" matchStrategy="1" name="find_longest_string" qualified="false" references="true" similarDeclarations="false" stamp="1735093090528" textual="false" version="1.0"/>
+</session>

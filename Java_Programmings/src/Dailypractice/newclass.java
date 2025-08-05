@@ -1,0 +1,48 @@
+package Dailypractice;
+
+import java.util.Scanner;
+
+public class newclass {
+
+	public static void main(String[] args) {
+		
+		       
+		
+		        String name = "Tom and Jerry are not friends";
+//		        String[] words = name.split(" "); // Split the string into words based on spaces
+//		        String reversedJerry = new StringBuilder(words[2]).reverse().toString(); // Reverse the third word (Jerry)
+//		        words[2] = reversedJerry; // Replace the original word with the reversed one
+//		        String result = String.join(" ", words); // Join the words back into a string
+//		        System.out.println(result);
+//		    }
+		
+		
+//		String [] data=name.split(" ");
+//		String res="";
+//		for(String d:data) {
+//			String result = "";
+//			
+//			for(int i=d.length()-1;i>=0;i--) {
+//				 result=result+d.charAt(i);
+//				 
+//			}
+//			res=res+result+ " ";
+//		}
+//		
+//		System.out.println(res);
+		        
+		        Scanner sc=new Scanner(System.in);
+		        System.out.println("add value");
+		       String input= sc.nextLine();
+		        
+		       
+		        
+		        
+		        
+		        
+		        
+	}	        
+
+	}
+
+

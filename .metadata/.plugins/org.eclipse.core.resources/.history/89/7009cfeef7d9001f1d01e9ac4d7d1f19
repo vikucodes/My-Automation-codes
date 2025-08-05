@@ -1,0 +1,52 @@
+package Automation;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class actionclass {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://testautomationpractice.blogspot.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+ 
+	
+	
+	WebElement start=driver.findElement(By.xpath("//button[normalize-space()='START']"));
+		
+	Actions act=new Actions(driver);
+	
+	act.moveToElement(start).perform();
+	
+	act.moveToElement(start).click().perform();
+	
+	
+	
+WebElement double_click=driver.findElement(By.xpath("//input[@id='field1']"));
+
+act.doubleClick(double_click).perform();
+
+
+
+WebElement drag=driver.findElement(By.xpath("//div[normalize-space()='Drag me to my target']"));
+
+WebElement drop=driver.findElement(By.xpath("//div[@id='droppable']"));
+
+act.dragAndDrop(drag, drop).perform();
+
+Thread.sleep(2000);
+WebElement min_slider=driver.findElement(By.xpath("//span[@class='ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover']"));
+	
+System.out.println(min_slider.getLocation());
+//act.dragAndDrop(min_slider, start)
+	
+	driver.quit();
+	}
+
+}

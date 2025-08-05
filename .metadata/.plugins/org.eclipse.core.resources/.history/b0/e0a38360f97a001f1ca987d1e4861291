@@ -1,0 +1,25 @@
+package Dailypractice;
+
+public class newclass {
+
+	public static void main(String[] args) {
+		
+		       
+		        String name="Tom and Jerry are not friends";
+		        
+		        String res="";
+		        
+		        for(String reverse:name){
+		            for(int i=6;i<reverse.length()-14;i++){
+		                String finalresult="";
+		                finalresult=reverse.charAt(i)+finalresult;
+		                res=res+finalresult;
+		            }
+		        }
+		         System.out.println(res);   
+		        }
+		        
+
+	}
+
+}

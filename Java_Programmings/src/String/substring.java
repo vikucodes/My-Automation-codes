@@ -1,0 +1,14 @@
+package String;
+
+public class substring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String data="john is a chartered accountant in usa";
+		System.out.println(data.length());
+		System.out.println(data.indexOf("a"));
+
+	}
+
+}

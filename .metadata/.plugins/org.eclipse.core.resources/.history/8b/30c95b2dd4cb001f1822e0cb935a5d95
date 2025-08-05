@@ -1,0 +1,41 @@
+package String;
+
+public class reverseFirstAndLastString {
+
+	public static void main(String[] args) {
+		
+		//reverse 1st and last string
+
+		String word="john and charles are two player ";
+		
+		String [] splitted=word.split(" ");
+		
+	    String	target="john";
+	
+	    String target2="player";
+	    
+	    String res="";
+		
+	    for(String name:splitted) {
+	    	
+	    	String result="";
+	    	
+	    	if(name.equals(target2)||name.equals(target2)) {
+	    	
+	    	for(int i=name.length()-1;i>=0;i--) {
+	    		
+	    		result=result+name.charAt(i);
+	    	}
+	    	
+	    }
+	    	else {
+	    		result+=name;
+	    	}
+	    	 res=res+result+" ";  
+	    	 
+	}
+	 System.out.println(res);
+	    
+	}
+}
+				

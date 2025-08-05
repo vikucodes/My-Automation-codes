@@ -1,0 +1,33 @@
+package Dailypractice;
+
+import java.util.Arrays;
+
+public class practice29122024 {
+
+	public static void main(String[] args) {
+	
+		String name="aman kumar mishra aman kumar mishra aman kumar mishra";
+		
+		String [] split=name.split(" ");
+		
+		String count="aman";
+		
+		int count1=0;
+		
+		for(String p:split) {
+			
+			if(p.equals(count)) {
+				count1++;
+				System.out.println(count.indexOf(count));
+			}
+		}
+		System.out.println(count1);
+	}
+}
+		
+		
+		
+
+
+
+

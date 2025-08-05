@@ -1,0 +1,40 @@
+package arrays;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class removeduplicate {
+
+	public static void main(String[] args) {
+		/*
+		 * int[] num = { 10, 30, 20, 30, 10, 50, 60, 10, 60, 3, 69 }; HashSet<Integer>
+		 * set = new HashSet<Integer>();
+		 * 
+		 * for (int arr : num) {
+		 * 
+		 * set.add(arr); }
+		 * 
+		 * System.out.println(set);
+		 */
+
+		int[] num = { 10, 30, 20, 30, 10, 50, 60, 10, 60, 3, 69 };
+		int[] num1 = { 11, 12, 15, 11, 16, 10, 30, 60, 3, 15, 9, 19, 19 };
+
+		HashSet<Integer> set = new HashSet<Integer>();
+
+		for (int arr : num) {
+
+			set.add(arr);
+		}
+		HashSet<Integer> set1 = new HashSet<Integer>();
+		for (int arr1 : num1) {
+
+			set.add(arr1);
+		}
+
+	//	System.out.println(set);
+		System.out.println(set1);
+	}
+
+}

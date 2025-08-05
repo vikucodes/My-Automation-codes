@@ -1,0 +1,46 @@
+package Automation;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaScripExecutor_Practice {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://testautomationpractice.blogspot.com/");
+		
+		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
+		
+	WebElement fname=	driver.findElement(By.xpath("//input[@id='name']"));
+	WebElement sclick=	driver.findElement(By.xpath("//button[@name='start']"));
+	
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		
+		js.executeScript("arguments[0].setAttribute('value' ,'vikas')", fname);
+		
+		//WebElement sclick=	driver.findElement(By.xpath("//button[@name='start']"));
+	js.executeScript("arguments[0].click()" ,sclick);
+		
+	Thread.sleep(2000);
+	
+	//scroll the page
+	
+	js.executeScript("window.scrollBy(0,700)");
+	
+	Thread.sleep(2000);
+	
+	driver.close();
+		
+
+	}
+
+}

@@ -1,0 +1,60 @@
+package Dailypractice;
+
+public class practice111224 {
+
+	public static void main(String[] args) {
+		
+		//find the largest no.
+		//find 2nd lasrgest no.
+		/*int [] a= {10,60,80,20,50,55};
+		
+		int max=a[0];
+		int sec_max=a[0];
+		for(int i=0;i<a.length-1;i++) {
+			
+			if(a[i]>max) {
+			sec_max=max;
+			max=a[i];
+				
+			}else if (a[i]>sec_max) {
+				sec_max=a[i];
+			}
+			}
+		
+		System.out.println(max);
+		System.out.println(sec_max);*/
+		
+		//2nd count occurance of apecific int
+		
+		/*int []arr= {10,20,10,30,20,40,30,50,80};
+		
+		int target=20;
+		int count=0;
+		for(int i=0;i<arr.length;i++) {
+			
+			if(arr[i]==20) {
+				count++;
+			}
+		}
+		
+		System.out.println(target + " "+ count);*/
+		
+		//3.merger two array
+		
+		int []a= {10,20,30};
+		
+		int []b= {40,50,60};
+		
+		int [] c=new int[a.length +b.length];
+		
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<b.length;j++) {
+				
+	
+			}
+			
+		}
+		System.out.println(c);
+	}
+}
+

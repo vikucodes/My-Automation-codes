@@ -1,0 +1,55 @@
+package String;
+
+public class removespecialcharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//String name="h#$lW ch45ar%&*lie";
+		//Approcah 1
+		
+////		String regex = "[^a-zA-z ]+";
+////		
+////		String result=name.replaceAll( regex ,"");
+////	//String res=	name.replaceAll("[^a-zA-Z0-9]", "");
+////
+////	System.out.println(result);
+//		
+//		//Approach 2
+		String name="java12 is21 24not4 d4e55fin45ne";
+		String result="";
+	char ch;		
+	for(int i=0;i<name.length();i++)		{
+		ch=name.charAt(i);
+		if(!Character.isDigit(ch) && !Character.isSpaceChar(ch)) {
+				
+				result=result+ch + " /s";
+				
+			}
+}	
+		System.out.println(result+ " ");
+		
+//	approach 3
+		
+		
+//		String input="H55I HO&&%&8866w 545ar66&*&e U";
+//		StringBuilder str=new StringBuilder();
+//		
+//		String res="";
+//		char ch;
+//		
+//		for(int i=0;i<input.length();i++) {
+//			ch=input.charAt(i);
+//			
+//			if(!Character.isDigit(ch) && !Character.isSpaceChar(i)){
+//				str.append(ch);
+//				
+//				res=res+ch;/////Wrong method hai
+//			}
+//		
+//		}
+//		
+//System.out.println(res);
+	}
+
+}

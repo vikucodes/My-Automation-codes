@@ -1,0 +1,78 @@
+package practice;
+
+public class Stringclass {
+
+	public static void main(String[] args) {
+		/*String name="Vikas Kumar Sinha";
+	//	String[]splittedString=name.split("Sinha");
+	//	System.out.println(splittedString);
+		//for(int i=name.length()-1;i<=0;i--) {
+		//System.out.println(name.substring(5));
+		System.out.println(name.substring(0,5));
+		System.out.println(name.substring(11,17));
+		
+	String	s="vikas@gmail.com";
+	
+	//System.out.println(s.split("@"));
+	
+	String a[]=s.split("@");
+	System.out.println(a[0]);
+	System.out.println(a[1]);
+		
+	String n="abc,123@xyz";
+	String arr[]=n.split(",");
+	String arr1[]=n.split("@");
+	System.out.println(arr[0]);
+	System.out.println(arr1[0]);
+	System.out.println(arr1[1]);
+		
+	String m="how123 are156 you987";
+	String result="";
+	
+	char p;
+	for(int j=0;j<m.length();j++) {
+		
+		p=m.charAt(j);
+	if(!Character.isDigit(p)) {
+		result=result+p;
+	}
+	}
+	System.out.println(result);
+	
+	String word="i am a disco dancer";
+	String vowel="";
+	int count = 0 ;
+	//char ch;
+	for(int i=0;i<word.length();i++) {
+		char ch1=word.charAt(i);
+		if(ch1=='a'||ch1=='e'||ch1=='i'||ch1=='o'||ch1=='u') {
+			count++;
+			//System.out.println(ch1 + "  "+ word.lastIndexOf(ch1, i));
+			//System.out.println("total vowel" + count);
+		int r[]= {2,5,5,8,9};
+		int sum=0;
+		for(int i=0;i<r.length;i++) {
+			sum+=r[i];
+		}
+		
+		System.out.println(sum);*/
+		
+		String b="235raj 54kapoor55";
+		String result="";
+		
+		char ch;
+		
+		for(int i=0;i<b.length();i++) {
+			ch=b.charAt(i);
+			if(!Character.isDigit(ch)) {
+				result=ch+result;
+			}
+			
+		}
+		System.out.println(result);
+		}
+		
+	
+
+	}
+

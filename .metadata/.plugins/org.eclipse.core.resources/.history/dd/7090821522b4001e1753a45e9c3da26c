@@ -1,0 +1,18 @@
+package practice;
+
+import java.util.ArrayList;
+
+public class Arraylist {
+
+	public static void main(String[] args) {
+		ArrayList <String>cars=new <String>ArrayList();
+		cars.add("volvo");
+		cars.add("audi");
+		cars.add("BMW");
+		cars.add("scorpio");
+		for(String a:cars) {
+		System.out.println(a);
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class mergetwoarray_insort {
+
+	public static void main(String[] args) {
+		
+		int [] a= {10,20,30,0,0};
+		int [] b= {10,20,40,0,0};
+		
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<b.length;j++) {
+			int [] c= {a[i] , b[j]};
+			System.out.println(Arrays.toString(c));
+			}
+		}
+		//System.out.println();
+		
+	}
+
+}

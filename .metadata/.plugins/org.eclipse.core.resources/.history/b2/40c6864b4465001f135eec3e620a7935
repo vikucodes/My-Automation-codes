@@ -1,0 +1,20 @@
+package Dailypractice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class stringpractice29082024 {
+
+	public static void main(String[] args) {
+		
+		   String word="rome was not build in a day";
+		   String [] split=word.split(" ");
+		   System.out.println(split.length);
+		      
+		        		}
+		        	
+	}	
+	
+		        
+		    
+		

@@ -1,0 +1,26 @@
+package Automation;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class multiplewindows {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver=new ChromeDriver();//ctrl+shift+o(for auto import)
+		  
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://www.flipkart.com/");
+		
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("//a[@title='Login'][@class='_1TOQfO']")).click();
+		driver.findElement(By.xpath("//input[@type='text'][@class='r4vIwl BV+Dqf']")).sendKeys("7987568101");
+		driver.findElement(By.xpath("//input[@type='text'][@class='r4vIwl BV+Dqf']")).click();
+	}
+
+}

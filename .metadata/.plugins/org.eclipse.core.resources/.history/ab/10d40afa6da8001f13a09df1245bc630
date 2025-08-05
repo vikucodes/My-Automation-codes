@@ -1,0 +1,42 @@
+package Dailypractice;
+
+import java.util.Arrays;
+
+public class practice221124 {
+
+	public static void main(String[] args) {
+		
+		
+		int [] digit=new int [6];
+		digit[0]=5;
+		 digit[1]=6;
+		 digit[2]=50;
+		 digit [3]=55;
+		 digit[4] =56;
+		 digit[5]=60;
+	
+		int [] num=new int [digit.length];
+		
+//		num[0]=digit[5];
+//		num[1]=digit[4];
+//		num[2]=digit[3];
+//		num[3]=digit[2];
+//		num[4]=digit[1];
+//		num[5]=digit[0];
+		
+		
+			
+				
+				for(int i=0,j=digit.length-1;i<digit.length;i++ ,j--) {
+					//for(int j=digit.length-1;j>=0;j--) {
+					num[j]=digit[i];
+					
+					
+				}
+				System.out.println(Arrays.toString(num));	
+			}
+		
+				
+	}
+	
+

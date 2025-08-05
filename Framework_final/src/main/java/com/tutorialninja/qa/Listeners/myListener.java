@@ -1,0 +1,66 @@
+package com.tutorialninja.qa.Listeners;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class myListener implements ITestListener{
+	
+	ExtentReports extentReport;
+	ExtentTest extentTest;
+	@Override
+	public void onStart(ITestContext context) {
+	
+	
+		
+	System.out.println("Execution started");
+	}
+
+	@Override
+	public void onTestStart(ITestResult result) {
+	String testName=	result.getName();
+	
+		extentReport.createTest(testName);
+	}
+
+	@Override
+	public void onTestSuccess(ITestResult result) {
+		
+		String testName=result.getName();
+		System.out.println(testName+"started succesfuly");
+
+		
+	}
+
+	@Override
+	public void onTestFailure(ITestResult result) {
+		
+		String testName=result.getName();
+		System.out.println(testName+"i am failing");
+		
+	}
+
+	@Override
+	public void onTestSkipped(ITestResult result) {
+		String testName=result.getName();
+		System.out.println(testName+"i have been skipped");
+	
+		
+	}
+
+	
+
+	@Override
+	public void onFinish(ITestContext context) {
+	
+	System.out.println("operation finished");
+	}
+	//we have to add test as Compile in om.xml at place of test in testng dependecy
+	
+
+}

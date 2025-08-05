@@ -1,0 +1,28 @@
+package String;
+
+public class reverse_only_one_word {
+
+	public static void main(String[] args) {
+		
+		String name="Tom and Jerry are not good friend";
+		String [] arr=name.split(" ");
+		
+		String reverse_word="";
+		
+		String after_reverse="";
+		
+		for(int i=0;i<name.length();i++) {
+			if(!arr[i].equals("jerry")) {
+				reverse_word=reverse_word+ " "+arr[i];
+				
+			}else {
+				for(int j=0;j<arr[i].length()-1;j++) {
+					after_reverse=arr[i].charAt(j)+after_reverse;
+				}
+				reverse_word=reverse_word+" "+after_reverse;
+			}
+		}
+		System.out.println(reverse_word);
+	}
+
+}

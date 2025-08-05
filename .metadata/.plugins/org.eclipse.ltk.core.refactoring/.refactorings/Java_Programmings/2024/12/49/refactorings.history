@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ArrayList.iterator_first_question&apos; to &apos;allvalue_first_question&apos;&#x0D;&#x0A;- Original project: &apos;Javainterview question answer&apos;&#x0D;&#x0A;- Original element: &apos;ArrayList.iterator_first_question&apos;&#x0D;&#x0A;- Renamed element: &apos;ArrayList.allvalue_first_question&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;iterator_first_question&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ArrayList{iterator_first_question.java[iterator_first_question" matchStrategy="1" name="allvalue_first_question" qualified="false" references="true" similarDeclarations="false" stamp="1733448144513" textual="false" version="1.0"/>
+</session>

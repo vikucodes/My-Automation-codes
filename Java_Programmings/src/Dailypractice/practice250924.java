@@ -1,0 +1,43 @@
+package Dailypractice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class practice250924 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String name="Programming";
+
+char []c=name.toCharArray();
+
+for(int i=0;i<c.length;i++) {
+	
+	for(int j=i+1;j<c.length;j++) {
+		
+		if(c[i]==c[j]) {
+			System.out.println(c[i]);
+		}
+
+	//System.out.println(c[i]);	
+}
+	
+//method 2
+
+Set<Character> duplicates=new HashSet<Character>();
+
+for(int k=0;k<c.length;k++) {
+	for(int l=k+1;l<c.length;l++) {
+		
+		if(c[k]==c[l]) {
+			
+			duplicates.add(c[k]);
+		}
+	}
+}
+
+System.out.println(duplicates);
+	}
+
+}
+}

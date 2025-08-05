@@ -1,0 +1,39 @@
+package Dailypractice;
+
+public class practice17122024 {
+
+	public static void main(String[] args) {
+		
+		/*String name="hellowing how are you sanjana";
+		
+		String [] ip=name.split(" ");
+		
+int len=0;
+		
+		for(int i=0;i<ip.length;i++) {
+			
+			//for(int j=i+1;j<ip.length;j++) {
+				
+				if(ip[i].length()>len) {
+					
+					len=ip[i].length();
+				}
+			}
+			
+		
+		System.out.println(len);*/
+		
+		
+		String name="vikas";
+		
+		int total_length=name.length();
+		
+		int middle =total_length/2;
+		
+		
+		System.out.println(name.charAt(middle));
+
+
+	}
+
+}

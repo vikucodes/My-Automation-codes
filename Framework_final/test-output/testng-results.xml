@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-15T23:16:24 IST" name="TutorialsNinja Automation Framework" finished-at="2025-02-15T23:17:04 IST" duration-ms="39348">
+    <groups>
+    </groups>
+    <test started-at="2025-02-15T23:16:24 IST" name="TutorialsNinja Tests" finished-at="2025-02-15T23:17:04 IST" duration-ms="39348">
+      <class name="Tutorial_ninja_project.Framework_final.Login_page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorial_ninja_project.Framework_final.Login_page@316bcf94]" started-at="2025-02-15T23:16:39 IST" name="setup" finished-at="2025-02-15T23:16:44 IST" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithvalidcredential()[pri:1, instance:Tutorial_ninja_project.Framework_final.Login_page@316bcf94]" started-at="2025-02-15T23:16:44 IST" name="loginwithvalidcredential" finished-at="2025-02-15T23:16:45 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredential -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tutorial_ninja_project.Framework_final.Login_page@316bcf94]" started-at="2025-02-15T23:16:45 IST" name="teardown" finished-at="2025-02-15T23:16:45 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorial_ninja_project.Framework_final.Login_page@316bcf94]" started-at="2025-02-15T23:16:45 IST" name="setup" finished-at="2025-02-15T23:16:50 IST" duration-ms="4730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithinvaliddata()[pri:2, instance:Tutorial_ninja_project.Framework_final.Login_page@316bcf94]" started-at="2025-02-15T23:16:50 IST" name="loginwithinvaliddata" finished-at="2025-02-15T23:16:51 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvaliddata -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tutorial_ninja_project.Framework_final.Login_page@316bcf94]" started-at="2025-02-15T23:16:51 IST" name="teardown" finished-at="2025-02-15T23:16:51 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tutorial_ninja_project.Framework_final.Login_page -->
+      <class name="Tutorial_ninja_project.Framework_final.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorial_ninja_project.Framework_final.Register@7fee8714]" started-at="2025-02-15T23:16:24 IST" name="setup" finished-at="2025-02-15T23:16:36 IST" duration-ms="11997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountregister()[pri:0, instance:Tutorial_ninja_project.Framework_final.Register@7fee8714]" started-at="2025-02-15T23:16:36 IST" name="accountregister" finished-at="2025-02-15T23:16:38 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountregister -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tutorial_ninja_project.Framework_final.Register@7fee8714]" started-at="2025-02-15T23:16:38 IST" name="teardown" finished-at="2025-02-15T23:16:39 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tutorial_ninja_project.Framework_final.Register -->
+      <class name="Tutorial_ninja_project.Framework_final.search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorial_ninja_project.Framework_final.search@6404f418]" started-at="2025-02-15T23:16:51 IST" name="setup" finished-at="2025-02-15T23:16:56 IST" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysearchWithValidProduct()[pri:1, instance:Tutorial_ninja_project.Framework_final.search@6404f418]" started-at="2025-02-15T23:16:56 IST" name="verifysearchWithValidProduct" finished-at="2025-02-15T23:16:57 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchWithValidProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Tutorial_ninja_project.Framework_final.search@6404f418]" started-at="2025-02-15T23:16:57 IST" name="TearDown" finished-at="2025-02-15T23:16:58 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tutorial_ninja_project.Framework_final.search@6404f418]" started-at="2025-02-15T23:16:58 IST" name="setup" finished-at="2025-02-15T23:17:02 IST" duration-ms="4221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidproduct()[pri:2, instance:Tutorial_ninja_project.Framework_final.search@6404f418]" started-at="2025-02-15T23:17:02 IST" name="invalidproduct" finished-at="2025-02-15T23:17:03 IST" duration-ms="894" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No product in serach result is not displayed  expected [There is no product that matches the search criteria.] but found [[[ChromeDriver: chrome on windows (a1ea9316b42379367da7bf1d6f005295)] -> xpath: //p[contains(text(),'There is no product that matches the search criter')]]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No product in serach result is not displayed  expected [There is no product that matches the search criteria.] but found [[[ChromeDriver: chrome on windows (a1ea9316b42379367da7bf1d6f005295)] -> xpath: //p[contains(text(),'There is no product that matches the search criter')]]]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at Tutorial_ninja_project.Framework_final.search.invalidproduct(search.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidproduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Tutorial_ninja_project.Framework_final.search@6404f418]" started-at="2025-02-15T23:17:03 IST" name="TearDown" finished-at="2025-02-15T23:17:04 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Tutorial_ninja_project.Framework_final.search -->
+    </test> <!-- TutorialsNinja Tests -->
+  </suite> <!-- TutorialsNinja Automation Framework -->
+</testng-results>

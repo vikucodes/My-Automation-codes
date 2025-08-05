@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;opencart121&apos; to &apos;Framework_Creation&apos;&#x0D;&#x0A;- Original element: &apos;opencart121&apos;&#x0D;&#x0A;- Renamed element: &apos;opencart121&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;opencart121&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=opencart121" name="Framework_Creation" references="true" stamp="1740910242890" version="1.0"/>
+</session>

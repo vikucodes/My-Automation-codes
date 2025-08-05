@@ -1,0 +1,29 @@
+package Dailypractice;
+
+public class practice29122024 {
+
+	public static void main(String[] args) {
+	
+		String name="aman kumar mishra aman kumar mishra aman kumar mishra";
+		
+		String [] split=name.split(" ");
+		
+		//String target="aman";
+		
+		for(String p:split) {
+			
+			for(int i=0;i<p.length();i++) {
+				
+				if(p.equals("aman")||p.equals("mishra")||p.equals("kumar")) {
+					
+				System.out.println(p);
+					
+					
+				}
+			}
+		}
+		
+
+	}
+
+}

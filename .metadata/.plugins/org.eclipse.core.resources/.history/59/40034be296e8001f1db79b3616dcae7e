@@ -1,0 +1,44 @@
+package vikas_Framework.Ecommerce;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class landing_page {
+	WebDriver driver;
+	
+	public landing_page(WebDriver driver ) {
+		
+		this.driver=driver;
+		
+		PageFactory.initElements(driver , this);
+	}
+	@FindBy(xpath="//input[@id='userEmail']")
+	WebElement useremail;
+	
+	@FindBy(xpath="//input[@id='userPassword']")
+	WebElement userpassword;
+	
+	@FindBy(xpath="//input[@id='login']")
+	WebElement submit ;
+	
+	
+	public void loginapplication(String email ,String password ) 
+	{
+	
+		useremail.sendKeys(email);
+		
+		userpassword.sendKeys(password);
+		
+		submit.click();
+
+		
+	}
+	
+	public void goto () {
+		
+	
+driver.get("https://rahulshettyacademy.com/client");
+}
+}

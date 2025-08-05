@@ -1,0 +1,19 @@
+package Dailypractice;
+
+public class practice31122024 {
+
+	public static void main(String[] args) {
+		
+		String name="chadwick";
+		
+		char [] name1=name.toCharArray();
+		
+		int middle=name1.length/2;
+		
+		
+		System.out.println(name.charAt(middle));
+		
+
+	}
+
+}

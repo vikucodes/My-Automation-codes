@@ -1,0 +1,11 @@
+package TestNGDemo;
+
+public class class1 {
+
+	
+	@Test
+	public void name()
+	{
+		System.out.println("vikas");
+	}
+}

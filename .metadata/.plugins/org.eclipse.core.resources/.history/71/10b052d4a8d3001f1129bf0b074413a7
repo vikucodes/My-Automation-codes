@@ -1,0 +1,10 @@
+package String;
+
+public class Frequency_Of_Each_character_AND_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
